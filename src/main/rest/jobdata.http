@@ -1,0 +1,16 @@
+GET http://localhost:8080/job_data?salary[gte]=500000000000
+###
+
+GET http://localhost:8080/job_data?salary[gte]=50000&job_title=Front-end Developer&gender=Female
+###
+
+GET http://localhost:8080/job_data?salary[lte]=50000&job_title=Front-end Developer&gender=Female
+###
+
+GET http://localhost:8080/job_data?job_title=Front-end Developer&gender=Male
+###
+
+GET http://localhost:8080/job_data?job_title=Front-end Developer&fields=gender,salary,job_title
+###
+
+GET http://localhost:8080/job_data?job_title=Front-end Developer&fields=gender,salary,job_title,timestamp&sort=salary,timestamp&sort_type=DESC,DESC
