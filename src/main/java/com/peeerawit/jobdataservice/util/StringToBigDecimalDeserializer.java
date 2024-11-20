@@ -1,4 +1,4 @@
-package io.appname.employeeservice.util;
+package com.peeerawit.jobdataservice.util;
 
 
 import com.fasterxml.jackson.core.JsonParser;

@@ -1,4 +1,4 @@
-package io.appname.employeeservice;
+package com.peeerawit.jobdataservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

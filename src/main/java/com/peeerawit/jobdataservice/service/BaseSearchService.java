@@ -1,4 +1,4 @@
-package io.appname.employeeservice.service;
+package com.peeerawit.jobdataservice.service;
 
 import java.math.BigDecimal;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package io.appname.employeeservice.controller;
+package com.peeerawit.jobdataservice.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -8,15 +8,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.appname.employeeservice.entity.JobData;
-import io.appname.employeeservice.service.JobDataSearchSearchService;
+import com.peeerawit.jobdataservice.entity.JobData;
+import com.peeerawit.jobdataservice.service.JobDataSearchService;
 
 @RestController
 @RequestMapping("/job_data")
 public class JobDataController extends BaseController {
-    private final JobDataSearchSearchService jobDataSearchService;
+    private final JobDataSearchService jobDataSearchService;
 
-    public JobDataController(JobDataSearchSearchService jobDataSearchService) {
+    public JobDataController(JobDataSearchService jobDataSearchService) {
         this.jobDataSearchService = jobDataSearchService;
     }
 

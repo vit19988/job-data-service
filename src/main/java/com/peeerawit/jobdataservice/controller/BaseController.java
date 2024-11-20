@@ -1,4 +1,4 @@
-package io.appname.employeeservice.controller;
+package com.peeerawit.jobdataservice.controller;
 
 import java.util.List;
 import java.util.Map;

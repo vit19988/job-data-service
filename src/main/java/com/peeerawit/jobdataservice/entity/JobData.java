@@ -1,11 +1,11 @@
-package io.appname.employeeservice.entity;
+package com.peeerawit.jobdataservice.entity;
 
 import java.math.BigDecimal;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import io.appname.employeeservice.util.StringToBigDecimalDeserializer;
+import com.peeerawit.jobdataservice.util.StringToBigDecimalDeserializer;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

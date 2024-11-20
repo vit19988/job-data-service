@@ -1,4 +1,4 @@
-package io.appname.employeeservice.service;
+package com.peeerawit.jobdataservice.service;
 
 import java.lang.reflect.Field;
 import java.math.BigDecimal;
@@ -17,12 +17,12 @@ import com.querydsl.core.types.dsl.ComparableExpressionBase;
 import com.querydsl.core.types.dsl.NumberPath;
 import com.querydsl.core.types.dsl.StringPath;
 import com.querydsl.jpa.impl.JPAQuery;
-import io.appname.employeeservice.entity.JobData;
-import io.appname.employeeservice.entity.QJobData;
+import com.peeerawit.jobdataservice.entity.JobData;
+import com.peeerawit.jobdataservice.entity.QJobData;
 import jakarta.persistence.EntityManager;
 
 @Service
-public class JobDataSearchSearchService extends BaseSearchService {
+public class JobDataSearchService extends BaseSearchService {
     private static final Map<String, Expression<?>> FIELD_EXPRESSION_MAP = new HashMap<>();
 
     static {
@@ -32,7 +32,7 @@ public class JobDataSearchSearchService extends BaseSearchService {
         FIELD_EXPRESSION_MAP.put("salary", QJobData.jobData.salary);
     }
 
-    public JobDataSearchSearchService(EntityManager entityManager) {
+    public JobDataSearchService(EntityManager entityManager) {
         super(entityManager);
     }
 

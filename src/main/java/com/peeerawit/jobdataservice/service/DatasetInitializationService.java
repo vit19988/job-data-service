@@ -1,4 +1,4 @@
-package io.appname.employeeservice.service;
+package com.peeerawit.jobdataservice.service;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,8 +11,8 @@ import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.appname.employeeservice.entity.JobData;
-import io.appname.employeeservice.repository.JobDataRepository;
+import com.peeerawit.jobdataservice.entity.JobData;
+import com.peeerawit.jobdataservice.repository.JobDataRepository;
 import jakarta.annotation.PostConstruct;
 
 @Service

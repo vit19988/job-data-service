@@ -1,9 +1,9 @@
-package io.appname.employeeservice.repository;
+package com.peeerawit.jobdataservice.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import io.appname.employeeservice.entity.JobData;
+import com.peeerawit.jobdataservice.entity.JobData;
 
 @Repository
 public interface JobDataRepository extends JpaRepository<JobData, Long> {
